@@ -1,3 +1,12 @@
+#Hooroshco.ir
+#instagram : @hooroshco
+#twitter : @hooroshtech
+
+#Programmer : Amin Asadi
+#instagram : @aminasadiam
+#twitter : @aminasadiam
+#website : Eminor.ir
+
 # Import the librarys
 
 import socket
@@ -58,4 +67,4 @@ t3 = t2 - t1
 
 print('Scanning Completed in: ', t3)
 
-# Programming by : Mohammad Amin Asadi
+# Programming by : Amin Asadi
