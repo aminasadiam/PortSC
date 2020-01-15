@@ -4,6 +4,7 @@ A web port scanning system
 To run PortSC in development mode; Just use steps below:
 <br />
 1.Install `Python3`, `pip` in your system.
+<br />
 2.Clone the project `https://github.com/asadiamin/port-scanner`.
 
 ```
