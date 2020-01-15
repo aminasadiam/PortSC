@@ -7,10 +7,10 @@ To run PortSC in development mode; Just use steps below:
 <br />
 1.Install `Python3`, `pip` in your system.
 <br />
-2.Clone the project `https://github.com/asadiamin/port-scanner`.
+2.Clone the project `https://github.com/asadiamin/PortSC`.
 
 ```
-git clone https://github.com/asadiamin/port-scanner.git
+git clone https://github.com/asadiamin/PortSC.git
 cd port-scanner
 python3 port-scanner.py
 ```
