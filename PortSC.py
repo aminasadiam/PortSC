@@ -11,7 +11,14 @@ from datetime import datetime
 
 # use a subprocess
 
-subprocess.call("clear")
+subprocess.call("clear" or "cls")
+
+# Colors
+
+class color:
+	GREEN = '\033[92m'
+	RED = '\033[91m'
+	WHITE = '\033[0m'
 
 # header
 
@@ -25,7 +32,7 @@ header = """
 
 """
 
-print(header)
+print(color.GREEN, header)
 
 # input the information
 
@@ -33,7 +40,8 @@ target = input("Enter your Target for Start Scan >> ")
 ip = socket.gethostbyname(target)
 
 print("-" * 50)
-print("Your Target ip --> ", ip)
+print(color.RED, "Your Target ip --> ", ip)
+
 print("-" * 50)
 # start scaned time
 
@@ -47,7 +55,7 @@ try:
         sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         result = sock.connect_ex((ip, port))
         if result == 0:
-            print("port {} --------------------- open".format(port))
+            print(color.WHITE, "port {} --------------------- open".format(port))
             sock.close()
 
 
@@ -74,6 +82,6 @@ t3 = t2 - t1
 
 # Printing the information to screen
 
-print('Scanning Completed in: ', t3)
+print(color.GREEN, 'Scanning Completed in: ', t3)
 
 # Programming by : Amin Asadi
