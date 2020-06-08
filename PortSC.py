@@ -1,11 +1,6 @@
-#Hooroshco.ir
-#instagram : @hooroshco
-#twitter : @hooroshtech
-
 #Programmer : Amin Asadi
 #instagram : @aminasadiam
 #twitter : @aminasadiam
-#website : Eminor.ir
 
 # Import the librarys
 
@@ -38,7 +33,7 @@ try:
         sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         result = sock.connect_ex((ip, port))
         if result == 0:
-            print("port {}               open".format(port))
+            print("port {} --------------------- open".format(port))
             sock.close()
 
 
