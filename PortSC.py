@@ -13,6 +13,18 @@ from datetime import datetime
 
 subprocess.call("clear")
 
+# header
+
+"""
+    ██████╗  ██████╗ ██████╗ ████████╗ ███████╗
+    ██╔══██╗██╔═══██╗██╔══██╗╚══██╔══╝ ██╔════╝
+    ██████╔╝██║   ██║██████╔╝   ██║    ███████╗
+    ██╔═══╝ ██║   ██║██╔══██╗   ██║    ╚════██║
+    ██║     ╚██████╔╝██║  ██║   ██║    ███████║
+    ╚═╝      ╚═════╝ ╚═╝  ╚═╝   ╚═╝    ╚══════╝
+
+"""
+
 # input the information
 
 target = input("Enter your Target for Start Scan >> ")
