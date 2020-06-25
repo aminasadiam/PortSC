@@ -22,7 +22,7 @@ cd port-scanner
 python3 port-scanner.py
 ```
 ## TODO
-- [x] Scan 1025 Port
+- [x] Scan 1025 Ports
 - [x] Error detection system
 - [x] Time Management
 - [ ] Designing
